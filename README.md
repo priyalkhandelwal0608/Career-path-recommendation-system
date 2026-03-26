@@ -1,17 +1,17 @@
-# 🚀 Career Path & Job Recommendation System
+#  Career Path & Job Recommendation System
 
 **A Hybrid ML system that recommends personalized career paths using Semantic Search (BERT + FAISS) and Collaborative Filtering.**
 
 ---
 
-## 📌 Overview
+##  Overview
 This project empowers students and professionals to discover their ideal career trajectories by analyzing skills, GPA, and professional experiences. By merging **Semantic Search** (for career titles) with **Collaborative Filtering** (for user profile similarity), the system provides a dual-layer recommendation engine that is both contextually aware and data-driven.
 
 **Why it matters:** Traditional keyword searches fail to capture the nuance of skill sets. This system enables recruiters and counselors to match candidates to roles based on deep semantic meaning and historical profile success.
 
 ---
 
-## ✨ Features
+##  Features
 - **Hybrid Recommendation Engine:**
   - **Semantic Search:** Uses `Sentence-Transformers` (BERT) to convert career names into high-dimensional embeddings, with `FAISS` for lightning-fast similarity indexing.
   - **Collaborative Filtering:** Identifies similar user profiles based on numerical features (GPA, skill scores) to suggest paths taken by similar individuals.
@@ -21,7 +21,7 @@ This project empowers students and professionals to discover their ideal career 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Backend:** Python, Flask
 - **Machine Learning:** Scikit-learn, SentenceTransformers (BERT)
 - **Vector Database:** FAISS (Facebook AI Similarity Search)
@@ -32,7 +32,7 @@ This project empowers students and professionals to discover their ideal career 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 CAREER_PATH_RECOMMENDATION/
 │── analysis/
