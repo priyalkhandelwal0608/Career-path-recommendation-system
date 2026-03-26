@@ -34,20 +34,20 @@ This project empowers students and professionals to discover their ideal career 
 
 ## 📂 Project Structure
 ```text
-career_recommender/
-│── data/
-│   └── careers.csv                # Dataset of career information
-│── app/
-│   ├── preprocessing.py           # Data cleaning & feature engineering
-│   ├── recommender.py             # Collaborative filtering logic
-│   ├── semantic_search.py         # BERT embeddings + FAISS indexing
-│   ├── api.py                     # Flask API backend & routes
-│   ├── static/
-│   │   └── style.css              # Custom UI styling
-│   └── templates/
-│       └── index.html             # Main Dashboard (Bootstrap)
+CAREER_PATH_RECOMMENDATION/
 │── analysis/
 │   └── eda.py                     # Visualization & Data Analysis
-│── requirements.txt               # Dependencies
+│── app/
+│   ├── __init__.py
+│   ├── preprocessing.py           # Data cleaning & feature engineering
+│   ├── recommender.py             # Collaborative filtering logic
+│   └── semantic_search.py         # BERT embeddings + FAISS indexing
+│── data/                          # Dataset folder
+│── static/
+│   └── style.css                  # Custom UI styling
+│── templates/
+│   └── index.html                 # Main Dashboard (Bootstrap)
+│── api.py                         # Flask API entry point
 │── Dockerfile                     # Containerization setup
+│── requirements.txt               # Dependencies
 └── README.md                      # Project Documentation
