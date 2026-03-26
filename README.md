@@ -31,7 +31,10 @@ This project empowers students and professionals to discover their ideal career 
 - **DevOps:** Docker
 
 ---
-
+##  Project Structure
+- pip install -r requirements.txt
+- python app.py
+---
 ##  Project Structure
 ```text
 CAREER_PATH_RECOMMENDATION/
@@ -52,6 +55,3 @@ CAREER_PATH_RECOMMENDATION/
 │── requirements.txt               # Dependencies
 └── README.md                      # Project Documentation
 ---
-##  Project Structure
-- pip install -r requirements.txt
-- python app.py
