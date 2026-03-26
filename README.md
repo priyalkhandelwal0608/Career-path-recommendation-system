@@ -51,3 +51,7 @@ CAREER_PATH_RECOMMENDATION/
 │── Dockerfile                     # Containerization setup
 │── requirements.txt               # Dependencies
 └── README.md                      # Project Documentation
+---
+##  Project Structure
+- pip install -r requirements.txt
+- python app.py
